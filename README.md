@@ -39,3 +39,11 @@ make deleteDB
 This will delete the docker container used for the db.
 
 NOTE: The set up with this particular Makefile has not been tested thoroughly. In particular, support for other platforms/os has not been verified. This was tested using a machine running Fedora 39.
+
+## Areas for Improvements
+- Improve error handling
+- Increase test coverage
+- Add `docker-compose.yml` and `Dockerfile`
+- Refactor configuration to ease future deployments
+- Set up monitoring (logging, metrics, traces)
+- And more...
