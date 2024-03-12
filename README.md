@@ -30,10 +30,12 @@ make migrateDB
 make seedDB
 ```
 
-To destroy the environment, simply run 
+To destroy the environment, simply run:
 
 ```sh
 make deleteDB
 ```
 
 This will delete the docker container used for the db.
+
+NOTE: The set up with this particular Makefile has not been tested thoroughly. In particular, support for other platforms/os has not been verified. This was tested using a machine running Fedora 39.
