@@ -7,6 +7,7 @@ This is a simple rest api implemented in go for Govtech OneCV take home assignme
 - docker
 - psql
 - make
+- go-migrate
 
 ## Set up dev environment
 To simplify setting up a local dev environment, run the following commands when starting the project for the first time:
